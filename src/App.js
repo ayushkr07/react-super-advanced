@@ -26,9 +26,10 @@ function App() {
     <Functionalone/>
     <Home/>
     <Welcome/>
-    <Greeting name="Ayush" skill="full"/>
+    <Greeting name="Ayush" skill="full">This is message</Greeting>
     <Greeting name="Ayush Mishra" skill="backend"/>
     <Greeting name="Ayushi" skill="HR"/>
+    
   
     </div>
   );
