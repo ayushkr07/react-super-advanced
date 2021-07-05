@@ -8,7 +8,7 @@ import Functionalone from './1.components/1.functional/Functionalone';
 // import Welcome from './1.components/2.class/Welcome';
 import Welcome from './3.props/Welcome';
 import Greeting from './3.props/Greeting';
-
+import Counter from './4.state/Counter.js';
 // function Home(){
 //   return <h1>This is home</h1>
 // }
@@ -34,6 +34,8 @@ function App() {
     <Welcome name="Ayush" skill="full">This is message</Welcome>
     <Welcome name="Ayush Mishra" skill="backend"/>
     <Welcome name="Ayushi" skill="HR"/>
+
+    <Counter/>
     
   
     </div>
