@@ -10,6 +10,7 @@ import Welcome from './3.props/Welcome';
 import Greeting from './3.props/Greeting';
 import Counter from './4.state/Counter.js';
 import Message from './4.state/Message';
+import Person from './4.state/Person';
 // function Home(){
 //   return <h1>This is home</h1>
 // }
@@ -38,6 +39,7 @@ function App() {
 
     <Counter/>
     <Message/>
+    <Person/>
     
   
     </div>
