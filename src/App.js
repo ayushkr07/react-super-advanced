@@ -6,6 +6,7 @@ import Functional from './1.components/1.functional/Functional';
 import Functional1 from './1.components/1.functional/Functional1';
 import Functionalone from './1.components/1.functional/Functionalone';
 import Welcome from './1.components/2.class/Welcome';
+import Greeting from './3.props/Greeting';
 
 // function Home(){
 //   return <h1>This is home</h1>
@@ -25,6 +26,10 @@ function App() {
     <Functionalone/>
     <Home/>
     <Welcome/>
+    <Greeting name="Ayush" skill="full"/>
+    <Greeting name="Ayush Mishra" skill="backend"/>
+    <Greeting name="Ayushi" skill="HR"/>
+  
     </div>
   );
 }
