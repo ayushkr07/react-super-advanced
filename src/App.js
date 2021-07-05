@@ -4,6 +4,14 @@ import Greet from './1.components/1.functional/Greet'
 import {Named} from './1.components/1.functional/Named'
 import Functional from './1.components/1.functional/Functional';
 import Functional1 from './1.components/1.functional/Functional1';
+import Functionalone from './1.components/1.functional/Functionalone';
+import Welcome from './1.components/2.class/Welcome';
+
+// function Home(){
+//   return <h1>This is home</h1>
+// }
+
+const Home = ()=><h1>Welcome to fat arrow home</h1>
 
 function App() {
   return (
@@ -14,6 +22,9 @@ function App() {
     <Named/>
     <Functional/>
     <Functional1/>
+    <Functionalone/>
+    <Home/>
+    <Welcome/>
     </div>
   );
 }

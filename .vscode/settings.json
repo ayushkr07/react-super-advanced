@@ -1,0 +1,10 @@
+{
+    "json.schemas": [
+        
+
+        
+    ],
+    "files.associations": {
+        "*.js": "javascriptreact"
+    }
+}
