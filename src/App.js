@@ -5,7 +5,8 @@ import {Named} from './1.components/1.functional/Named'
 import Functional from './1.components/1.functional/Functional';
 import Functional1 from './1.components/1.functional/Functional1';
 import Functionalone from './1.components/1.functional/Functionalone';
-import Welcome from './1.components/2.class/Welcome';
+// import Welcome from './1.components/2.class/Welcome';
+import Welcome from './3.props/Welcome';
 import Greeting from './3.props/Greeting';
 
 // function Home(){
@@ -25,10 +26,14 @@ function App() {
     <Functional1/>
     <Functionalone/>
     <Home/>
-    <Welcome/>
+    <h1>This is function</h1>
     <Greeting name="Ayush" skill="full">This is message</Greeting>
     <Greeting name="Ayush Mishra" skill="backend"/>
     <Greeting name="Ayushi" skill="HR"/>
+    <h1>This is class</h1>
+    <Welcome name="Ayush" skill="full">This is message</Welcome>
+    <Welcome name="Ayush Mishra" skill="backend"/>
+    <Welcome name="Ayushi" skill="HR"/>
     
   
     </div>

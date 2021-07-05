@@ -1,7 +1,6 @@
 import React from 'react'
 
 function Greeting(props) {
-    console.log(props)
     const {name,skill,children}=props
     return (
         <div>
